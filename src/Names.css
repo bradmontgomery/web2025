@@ -1,0 +1,53 @@
+#names-container ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+#names-container li {
+    border-bottom: 1px dotted #555;
+    padding: .5em;
+    margin: .5em;
+    clear: both;
+}
+
+#names-container li > button {
+    float: right;
+    min-width: 75px;
+    padding: .25em;
+    margin: 0 1em .5em 1em;
+}
+
+#names-container form {
+    padding: 1em;
+    margin: .5em auto;
+    width: 60%;
+    border: 1px solid #333;
+    background-color: black;
+}
+
+#names-container input[type=submit] {
+    padding: .75em 1.25em;
+    margin: .5em auto;
+    color: white;
+    background-color: darkgoldenrod;
+    border-width:0;
+}
+
+#names-container input[type=submit]:hover {
+    background-color:tomato;
+    color: black;
+}
+
+#names-container input[type=text] {
+    padding: .75em 1.25em;
+    margin: .5em auto;
+    background-color:black;
+    border: 1px solid #555;
+    font-size:larger;
+}
+#names-container input[type=text]:focus,
+#names-container input[type=text]:active,
+#names-container input[type=text]:hover {
+    border: 1px solid tomato;
+    font-size:larger;
+}

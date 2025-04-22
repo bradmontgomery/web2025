@@ -1,0 +1,14 @@
+div.clock {
+    border: 1px solid red;
+    color: red;
+    background-color: #550000;
+    width: 300px;
+    font-size: larger;
+    padding: 1em;
+    margin: 1em auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.clock > h2 {
+    font-size: 2.5em;
+}
